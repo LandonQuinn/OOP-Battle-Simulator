@@ -10,7 +10,7 @@ def main():
     hero = Hero("Brody")
 
     # Create goblins ༼ ºل͟º ༽ ༼ ºل͟º ༽ ༼ ºل͟º ༽
-    goblins = [Goblin(f"Goblin {i+1}") for i in range(4)]
+    goblins = [Goblin(f"Goblin {i+1}", "Green") for i in range(4)]
     # Keep track of how many goblins were defeated
     defeated_goblins = 0
     total_damage = 0
